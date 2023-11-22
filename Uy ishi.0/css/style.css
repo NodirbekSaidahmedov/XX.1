@@ -1,0 +1,91 @@
+*,
+*::after
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ECF2F8;;
+    font-family: 'Manrope', sans-serif;
+}
+
+.box {
+    margin: 111px 40px 70px 300px;
+    display: inline-block;
+    width: 730px;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url(../images/Bitmap.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #FFF;
+}
+
+.title {
+    padding-left: 40px;
+    text-align: right;
+}
+
+.title_2 {
+    padding: 20px 7px 21px 15px;
+}
+.small_part {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.the_date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9DAEC2;
+font-size: 13px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.122px;
+}
+
+.Share_icon {
+    display: inline;
+    justify-content: end;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-right: 3rem;
+    margin-bottom: 16px;
+    color: #48556A;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.25px;
+}
+
+p {
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color: #6E8098;
+font-size: 13px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.122px;
+}
+
+span {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    color: #48556A;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.122px;
+    justify-content: flex-end;
+    flex-direction: column
+}
